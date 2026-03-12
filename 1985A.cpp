@@ -13,9 +13,7 @@ int main(int argc,char const* argv[])
         char temp_contaner=0;
         if(a[0]!=b[0])
         {
-            temp_contaner=a[0];
-            a[0]=b[0];
-            b[0]=temp_contaner;
+            std::swap(a[0],b[0]);
         }
         std::cout<<a<<" "<<b<<std::endl;
         
